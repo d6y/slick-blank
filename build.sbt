@@ -2,7 +2,7 @@ name := "thing"
 
 version := "3.3"
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.2"
 
 scalacOptions ++= Seq(
   "-deprecation",
