@@ -41,8 +41,6 @@ object Example extends App {
 
   val db = Database.forConfig("example")
   try 
-    println(
-      Await.result(db.run(program), 2.seconds)
-    )
+    Await.result(db.run(program), 2.seconds).foreach(println)
   finally db.close
 }

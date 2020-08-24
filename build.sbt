@@ -2,7 +2,7 @@ name := "thing"
 
 version := "3.3"
 
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -13,7 +13,6 @@ scalacOptions ++= Seq(
   "-language:postfixOps",
   "-Ywarn-dead-code",
   "-Xlint",
-  "-Xfatal-warnings"
 )
 
 libraryDependencies ++= Seq(
